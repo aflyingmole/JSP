@@ -13,19 +13,19 @@
 		document.getElementById('wbtn').onclick = function() {
 			//alert('click');
 			if(document.wfrm.info.checked == false){
-				alert('동의하여야 됩니다.');
+				alert('동의해야 합니다.');
 				return false;
 			}
 			if(document.wfrm.writer.value.trim() == ''){
-				alert('글쓴이를 입력하셔유.');
+				alert('글쓴이를 입력하세요.');
 				return false;
 			}
 			if(document.wfrm.subject.value.trim() == ''){
-				alert('제목을 입력하셔유.');
+				alert('제목을 입력하세요.');
 				return false;
 			}
 			if(document.wfrm.password.value.trim() == ''){
-				alert('비밀번호를 입력하셔유.');
+				alert('비밀번호를 입력하세요.');
 				return false;
 			}
 			document.wfrm.submit();
