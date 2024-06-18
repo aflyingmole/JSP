@@ -14,6 +14,7 @@
 
 <%
 	request.setCharacterEncoding("utf-8");
+
 	String seq = request.getParameter("seq");
 	//System.out.println(seq);
 
